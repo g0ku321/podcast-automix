@@ -12,6 +12,10 @@ It implements the **Deep Dugan Speech Automixer algorithm**:
 * **Streaming Memory Architecture:** Fixed ~30 MB RAM footprint streaming in 60-second chunks—process 5-minute clips or 5-hour marathons without memory pressure.
 * **Video Production Ready:** Automatically exports broadcast-standard **48 kHz 24-bit PCM WAV** (exact millisecond timeline sync for Premiere / DaVinci Resolve) and **320 kbps MP3**.
 
+<p align="center">
+  <img src="podcast_automix_comparison.png" alt="Podcast Dugan Automixer Before vs After Waveform Comparison" width="100%">
+</p>
+
 ---
 
 ## ⚡ Quick Start
