@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "podcast-automix"
+version = "1.0.0"
+description = "Fast, memory-safe Dugan speech automixer for 2-speaker podcast recordings (Zoom PodTrak, Rodecaster)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "g0ku321" }
+]
+keywords = [
+    "podcast",
+    "audio",
+    "automixer",
+    "dugan",
+    "speech",
+    "broadcast",
+    "soundfile",
+    "zoom-podtrak",
+    "rodecaster"
+]
+classifiers = [
+    "Topic :: Multimedia :: Sound/Audio :: Processing",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "soundfile>=0.12.0",
+]
+
+[project.scripts]
+podcast-automix = "podcast_automix.automix:main"
+
+[project.urls]
+Homepage = "https://github.com/g0ku321/podcast-automix"
+Issues = "https://github.com/g0ku321/podcast-automix/issues"
