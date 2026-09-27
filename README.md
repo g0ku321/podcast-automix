@@ -127,3 +127,13 @@ Traditional downward gates and noise-suppressors fail on multi-mic podcasts beca
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## ⚖️ Trademark & Attribution Disclaimer
+
+*"Dugan"* and *"Dugan Speech Automixer"* are registered trademarks of Dan Dugan Sound Design. 
+
+`podcast-automix` is an independent open-source implementation based on publicly available academic literature (Dan Dugan, *"Automatic Microphone Mixer System"*, Journal of the Audio Engineering Society, Vol. 24, No. 10, 1976) and expired foundational public patents (U.S. Patents 3,814,856 and 3,992,584). 
+
+This project is entirely independent and is not affiliated with, endorsed by, sponsored by, or associated with Dan Dugan Sound Design or Dan Dugan.
